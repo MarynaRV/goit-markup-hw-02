@@ -1,0 +1,113 @@
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --second-font-family: "Raleway", sans-serif;
+  --primary-text-color-theme-dark: #2e2f42;
+  --second-text-color-theme-dark: #434455;
+  --text-color-blue: #404bbf;
+}
+
+.logo {
+  font-family: var(--second-font-family);
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo > span {
+  color: var(--primary-text-color-theme-dark);
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+
+.menu-link {
+  color: var(--primary-text-color-theme-dark);
+  text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contact-tel-link:hover,
+.contact-tel-link:focus {
+  color: var(--text-color-blue);
+}
+
+.contact-tel-link {
+  color: var(--second-text-color-theme-dark);
+  text-decoration: none;
+}
+
+/* ================= HERO ================= */
+
+.main-title {
+  font-family: "Roboto";
+  font-size: 56px;
+  line-height: 1.07px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  background-color: #4d5ae5;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--text-color-blue);
+}
+
+.info {
+  color: var(--primary-text-color-theme-dark);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+}
+
+.about {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+/* ================= ABOUT ================= */
+.title {
+  color: var(--primary-text-color-theme-dark);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02;
+  text-align: center;
+}
+
+/* ================= EMPLOYEES =================*/
+.employees-list-name {
+  color: var(--primary-text-color-theme-dark);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+  text-align: center;
+}
+
+.employees-list-position {
+  color: var(--second-text-color-theme-dark);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  text-align: center;
+}
