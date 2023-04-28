@@ -6,6 +6,8 @@
   --text-color-blue: #404bbf;
 }
 
+/* ================= HEADER ================= */
+
 .logo {
   font-family: var(--second-font-family);
   color: #4d5ae5;
@@ -111,3 +113,14 @@ body {
   letter-spacing: 0.02;
   text-align: center;
 }
+
+/* ================= FOOTER =================*/
+.footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  text-align: left;
+}
+
+/* ================= Portfolio =================*/
