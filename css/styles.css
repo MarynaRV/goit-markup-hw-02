@@ -25,7 +25,8 @@ ul {
 
 body {
   font-family: var(--main-font-family);
-  font-family: var(--primary-text-color-theme-dark);
+  font-family: var(--second-text-color-theme-dark);
+  background-color: #ffffff;
 }
 
 .menu-link {
@@ -62,7 +63,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
 }
 
 .btn:hover,
@@ -75,7 +76,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .about {
@@ -83,7 +84,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 /* ================= ABOUT ================= */
@@ -92,7 +93,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -102,7 +103,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -111,7 +112,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -127,11 +128,13 @@ body {
 
 /* ================= FOOTER =================*/
 .footer {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: left;
+  background-color: #2e2f42;
+  color: #f4f4fd;
 }
 
 /* ================= Portfolio =================*/
@@ -142,7 +145,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -155,7 +158,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: left;
 }
 .portfolio-paragraph {
@@ -163,6 +166,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: left;
 }
