@@ -25,6 +25,7 @@ ul {
 
 body {
   font-family: var(--main-font-family);
+  font-family: var(--primary-text-color-theme-dark);
 }
 
 .menu-link {
@@ -114,6 +115,16 @@ body {
   text-align: center;
 }
 
+.img {
+  width: 360;
+  height: 300;
+}
+
+.img-team {
+  width: 264px;
+  height: 260px;
+}
+
 /* ================= FOOTER =================*/
 .footer {
   font-weight: 400;
@@ -124,3 +135,34 @@ body {
 }
 
 /* ================= Portfolio =================*/
+.button {
+  background-color: #e7e9fc;
+  color: #4d5ae5;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--text-color-blue);
+  color: white;
+}
+.portfolio-header {
+  color: var(--primary-text-color-theme-dark);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+  text-align: left;
+}
+.portfolio-paragraph {
+  color: var(--second-text-color-theme-dark);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  text-align: left;
+}
