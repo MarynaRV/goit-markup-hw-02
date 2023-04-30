@@ -207,6 +207,10 @@ body {
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
+
 .portfolio-header {
   color: var(--primary-text-color-theme-dark);
   font-weight: 500;
