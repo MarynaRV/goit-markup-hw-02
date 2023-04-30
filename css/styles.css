@@ -70,6 +70,10 @@ body {
 
 /* ================= HERO ================= */
 
+.hero {
+  background-color: var(--primary-text-color-theme-dark);
+}
+
 .main-title {
   font-family: "Roboto";
   font-weight: 700;
@@ -78,11 +82,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: var(--primary-text-color-theme-dark);
 }
 
 .btn {
-  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   color: white;
   cursor: pointer;
