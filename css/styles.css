@@ -135,6 +135,10 @@ body {
   background-color: #f4f4fd;
 }
 
+.employees-list {
+  background-color: #ffffff;
+}
+
 .employees-list-name {
   color: var(--primary-text-color-theme-dark);
   font-weight: 500;
@@ -164,13 +168,19 @@ body {
 }
 
 /* ================= FOOTER =================*/
+.footer-list {
+  background-color: var(--primary-text-color-theme-dark);
+}
+
+.logo link list {
+  color: #f4f4fd;
+}
 .footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  background-color: var(--primary-text-color-theme-dark)
   color: #f4f4fd;
 }
 
