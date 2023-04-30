@@ -24,7 +24,7 @@
   letter-spacing: 0.03em;
 }
 
-.logo > span {
+.span-logo {
   color: var(--primary-text-color-theme-dark);
   text-decoration: none;
   text-transform: uppercase;
@@ -186,7 +186,7 @@ body {
   color: #f4f4fd;
 }
 
-.logo link > span-logo {
+.span-logo-footer {
   color: #f4f4fd;
 }
 
