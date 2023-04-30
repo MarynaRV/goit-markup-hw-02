@@ -203,6 +203,10 @@ body {
   background-color: var(--text-color-blue);
   color: white;
 }
+
+.list {
+  list-style: none;
+}
 .portfolio-header {
   color: var(--primary-text-color-theme-dark);
   font-weight: 500;
