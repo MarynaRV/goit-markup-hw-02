@@ -4,6 +4,7 @@
   --primary-text-color-theme-dark: #2e2f42;
   --second-text-color-theme-dark: #434455;
   --text-color-blue: #404bbf;
+  --text-color-portfolio-button: #f4f4fd;
 }
 
 /* ================= HEADER ================= */
@@ -187,7 +188,7 @@ body {
 
 /* ================= Portfolio =================*/
 .button {
-  background-color: #e7e9fc;
+  background-color: var(--text-color-portfolio-button);
   color: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
