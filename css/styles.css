@@ -44,6 +44,10 @@ body {
   background-color: #ffffff;
 }
 
+.address {
+  font-style: normal;
+}
+
 .menu-link {
   color: var(--primary-text-color-theme-dark);
   text-decoration: none;
