@@ -130,6 +130,11 @@ body {
 }
 
 /* ================= EMPLOYEES =================*/
+
+.employees {
+  background-color: #f4f4fd;
+}
+
 .employees-list-name {
   color: var(--primary-text-color-theme-dark);
   font-weight: 500;
