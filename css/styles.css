@@ -153,6 +153,10 @@ body {
   text-align: center;
 }
 
+.first-picture {
+  background-color: #ffffff;
+}
+
 .img {
   width: 360;
   height: 300;
